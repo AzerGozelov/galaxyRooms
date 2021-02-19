@@ -55,13 +55,10 @@ body{
     transition: .5s;
     border-radius: 5px;
 }
-.card:hover .image img {
-    opacity: .5;
-    transform: translateX(30%);/*100%*/
-}
 .card .details {
     position: absolute;
     top: 0;
+    opacity: 0.9;
     left: 0;
     width: 100%;
     height: 90%;
@@ -127,6 +124,4 @@ body{
         height: 90px;
     }
 }
-
-
 
