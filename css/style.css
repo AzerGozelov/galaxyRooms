@@ -25,12 +25,19 @@ body{
     height: 100%;
     overflow: hidden;
 }
+
+.p-bottomAndTop{
+    text-align: -webkit-center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .about .about-text{
     color: black;
     background-color: white;
     margin-left: -70px;
     margin-top: -30px;
-    height: 30px;
+    height: 50px;
     width: 100%;
     border: 0px;
     border-radius: 0px 0px 5px 5px;
@@ -102,13 +109,13 @@ body{
         height: 600px;
     }
     .card .details{
-        height: 96%;
+        height: 93%;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .card .details{
-        height: 96%;
+        height: 93%;
     }
 }
 
