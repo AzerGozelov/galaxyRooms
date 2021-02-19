@@ -63,7 +63,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 93%;
+    height: 90%;
     background-color: white;
     border-radius: 5px 5px 0px 0px;
     transition: .5s;
@@ -87,7 +87,7 @@ body{
     padding: 0;
     color: #ff3636;
     line-height: 20px;
-    font-size: 35px;
+    font-size: 130px;
     text-transform: uppercase;
 }
 .card .details .center h1 span {
@@ -97,7 +97,7 @@ body{
 }
 .card .details .center p {
     margin: 10px 0;
-    font-size: 25px;
+    font-size: 37px;
     padding: 0;
     color: #262626;
 }
@@ -108,7 +108,7 @@ body{
 
 .card .details .center ul{
     padding: 0px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -116,22 +116,16 @@ body{
         width: 90%;
         height: 700px;
     }
-    .card .details{
-        height: 93%;
+    .card:hover .about-text{
+        height: 100px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .card .details{
-        height: 93%;
-    }
     .card:hover .about-text{
-        height: 71px;
+        height: 90px;
     }
 }
 
-@media (hover: none) {
-    .card:hover { color: inherit; }
-}
 
 
