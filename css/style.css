@@ -1,5 +1,5 @@
 body{
-    background: url(/img/bg.jpg);
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Milkyway-galaxy-sky-stars_-_West_Virginia_-_ForestWander.jpg/1200px-Milkyway-galaxy-sky-stars_-_West_Virginia_-_ForestWander.jpg);
 }
 
 .card {
@@ -82,7 +82,7 @@ body{
     transform: translateY(-50%);
 }
 .card .details .center h1 {
-    background: url(/img/bg.jpg) no-repeat;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Milkyway-galaxy-sky-stars_-_West_Virginia_-_ForestWander.jpg/1200px-Milkyway-galaxy-sky-stars_-_West_Virginia_-_ForestWander.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
