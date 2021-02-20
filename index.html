@@ -14,13 +14,13 @@
 <div class="container-fluid d-flex">
     <div class="row w-100 ml-0">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card">
+            <div class="card" onclick="myFunction('myDIV')">
                 <div class="image">
                     <img src="img/world.jpg"/>
                 </div>
                 <div class="about" style="text-align: right">
                     <button class="about-text">Məlumat</button>
-                    <div class="details">
+                    <div class="details" id="myDIV" style="display: none">
                         <div class="center">
                             <h1 style="padding: 60px">Earth<br></h1><span style="font-size: 40px">Depazit - 200 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
                             <p>Karaoke, Sinema, Netflix</p>
@@ -35,34 +35,13 @@
         </div>
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card">
+            <div class="card" onclick="myFunction('myDIV2')">
                 <div class="image">
                     <img src="img/world.jpg"/>
                 </div>
                 <div class="about" style="text-align: right">
                     <button class="about-text">Məlumat</button>
-                    <div class="details">
-                        <div class="center">
-                            <h1 style="padding: 60px">Earth<br></h1><span style="font-size: 40px">Depazit - 200 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Karaoke, Sinema, Netflix</p>
-                            <ul>
-                                <li>Tutum: 15-20 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card">
-                <div class="image">
-                    <img src="img/world.jpg"/>
-                </div>
-                <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details">
+                    <div class="details" id="myDIV2" style="display: none">
                         <div class="center">
                             <h1 style="padding: 60px">Earth<br></h1><span style="font-size: 40px">Depazit - 200 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
                             <p>Karaoke, Sinema, Netflix</p>
@@ -78,5 +57,16 @@
     </div>
 </div>
 
+<script>
+    function myFunction($id) {
+        var x = document.getElementById($id);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        }
+        else {
+            x.style.display = "none";
+        }
+    }
+</script>
 </body>
 </html>
