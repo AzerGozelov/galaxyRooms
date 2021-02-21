@@ -100,7 +100,6 @@ body{
     padding: 0;
     color: #ff3636;
     line-height: 20px;
-    font-size: 130px;
     text-transform: uppercase;
 }
 .card .details .center h1 span {
@@ -110,13 +109,22 @@ body{
 }
 .card .details .center p {
     margin: 10px 0;
-    font-size: 37px;
+    font-size: 40px;
     padding: 0;
     color: #262626;
 }
 
+.fs-100{
+    font-size: 100px;
+}
+
+.fs-120{
+    font-size: 120px;
+}
+
 .card .details .center ul li {
     list-style: none;
+    font-size: 35px;
 }
 
 .card .details .center ul{
@@ -141,6 +149,18 @@ body{
 @media only screen and (min-width: 992px) {
     .w3-button{
         font-size: 20px;
+    }
+
+    .center span{
+        font-size: 35px !important;
+    }
+
+    .fs-120{
+        font-size: 115px !important;
+    }
+
+    .fs-100{
+        font-size: 95px !important;
     }
 }
 
