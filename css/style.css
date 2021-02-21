@@ -9,6 +9,11 @@ body{
     border: 0px;
 }
 
+.mySlides {
+    display:none;
+}
+
+
 .galaxyicon{
     height: 150px;
     display: block;
@@ -21,7 +26,7 @@ body{
 }
 
 .card:hover .about-text{
-    height: 90px;
+    height: 70px;
 }
 
 .card .image {
@@ -36,12 +41,16 @@ body{
     padding-bottom: 60px;
 }
 
+.block{
+    display: block !important;
+}
+
 .about .about-text{
     color: black;
     background-color: white;
     margin-left: -70px;
     margin-top: -30px;
-    height: 90px;
+    height: 70px;
     width: 100%;
     font-size: 40px;
     border: 0px;
@@ -53,15 +62,22 @@ body{
     width: 100%;
     height: 100%;
     transition: .5s;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
 }
+
+.w3-button{
+    opacity: 0.8;
+    width: 7%;
+    height: 50px;
+}
+
 .card .details {
     position: absolute;
     top: 0;
     opacity: 0.9;
     left: 0;
     width: 100%;
-    height: 90%;
+    height: 91%;
     background-color: white;
     border-radius: 5px 5px 0px 0px;
     transition: .5s;
@@ -121,13 +137,18 @@ body{
         height: 765px;
     }
     .card:hover .about-text{
-        height: 90px;
+        height: 70px;
+    }
+    .w3-button {
+        width: 10%;
+        font-size: 35px;
+        height: 80px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .card:hover .about-text{
-        height: 90px;
+    .w3-button{
+        font-size: 20px;
     }
 }
 

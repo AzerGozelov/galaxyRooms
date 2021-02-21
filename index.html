@@ -6,6 +6,7 @@
     <link rel="icon" href="img/icon.png" type="image/png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
@@ -13,167 +14,69 @@
 
 <div class="container-fluid d-flex">
     <div class="row w-100 ml-0">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('earth')">
-                <div class="image">
-                    <img src="img/world.jpg"/>
-                </div>
-                <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="earth" style="display: none">
-                        <div class="center">
-                            <h1 style="padding: 60px">Earth<br></h1><span style="font-size: 40px">Depazit - 200 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Karaoke, Sinema, Netflix</p>
-                            <ul>
-                                <li>Tutum: 15-20 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
-                            </ul>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
+                <div class="card">
+                    <div class="image">
+                        <img class="mySlides1" src="img/pluto.jpg">
+                        <img class="mySlides1" src="img/pluto2.jpg">
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+                    </div>
+                    <div class="about" style="text-align: right">
+                        <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                        <div class="details" style="display: none">
+                            <div class="center">
+                                <h1 style="padding: 60px">Pluto<br></h1><span style="font-size: 40px">Depazit - 15 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                                <p>Smart Tv, Youtube, Ps3</p>
+                                <ul>
+                                    <li>Tutum: 2 Nəfər</li>
+                                    <li>Vaxt Limiti: 1 Saat</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('mars')">
-                <div class="image">
-                    <img src="img/mars.jpg"/>
-                </div>
-                <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="mars" style="display: none">
-                        <div class="center">
-                            <h1 style="padding: 60px">Mars<br></h1><span style="font-size: 40px">Depazit - 100 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Karaoke, Sinema, Netflix</p>
-                            <ul>
-                                <li>Tutum: 10 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
-                            </ul>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
+                <div class="card">
+                    <div class="image">
+                        <img class="mySlides2" src="img/makemake.jpg">
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 1)">&#10095;</button>
+                    </div>
+                    <div class="about" style="text-align: right">
+                        <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                        <div class="details" style="display: none">
+                            <div class="center">
+                                <h1 style="padding: 60px;font-size: 100px">Make Make<br></h1><span style="font-size: 40px">Depazit - 15 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                                <p>Smart Tv, Youtube, Ps3</p>
+                                <ul>
+                                    <li>Tutum: 2 Nəfər</li>
+                                    <li>Vaxt Limiti: 1 Saat</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('moon')">
+            <div class="card">
                 <div class="image">
-                    <img src="img/moon.jpg"/>
+                    <img class="mySlides3" src="img/neptun.jpeg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 2)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 2)">&#10095;</button>
                 </div>
                 <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="moon" style="display: none">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
                         <div class="center">
-                            <h1 style="padding: 60px">Moon<br></h1><span style="font-size: 40px">Depazit - 80 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Karaoke, Sinema, Netflix</p>
-                            <ul>
-                                <li>Tutum: 6 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('yupiter')">
-                <div class="image">
-                    <img src="img/yupiter.jpg"/>
-                </div>
-                <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="yupiter" style="display: none">
-                        <div class="center">
-                            <h1 style="padding: 60px">Yupiter<br></h1><span style="font-size: 40px">Depazit - 80 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Karaoke, Sinema, Netflix</p>
-                            <ul>
-                                <li>Tutum: 6-8 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('mercury')">
-                <div class="image">
-                    <img src="img/mercury.jpg"/>
-                </div>
-                <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="mercury" style="display: none">
-                        <div class="center">
-                            <h1 style="padding: 60px;font-size: 120px">Mercury<br></h1><span style="font-size: 40px">Depazit - 60 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Karaoke, Sinema, Netflix</p>
-                            <ul>
-                                <li>Tutum: 4-5 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('venus')">
-                <div class="image">
-                    <img src="img/venus.jpg"/>
-                </div>
-                <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="venus" style="display: none">
-                        <div class="center">
-                            <h1 style="padding: 60px">Venus<br></h1><span style="font-size: 40px">Depazit - 60 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Karaoke, Sinema, Netflix</p>
-                            <ul>
-                                <li>Tutum: 4-5 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('uranus')">
-                <div class="image">
-                    <img src="img/uranus.jpg"/>
-                </div>
-                <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="uranus" style="display: none">
-                        <div class="center">
-                            <h1 style="padding: 60px">Uranus<br></h1><span style="font-size: 40px">Depazit - 50 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Smart Tv, Youtube, Ps 4</p>
-                            <ul>
-                                <li>Tutum: 6 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('neptun')">
-                <div class="image">
-                    <img src="img/neptun.jpeg"/>
-                </div>
-                <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="neptun" style="display: none">
-                        <div class="center">
-                            <h1 style="padding: 60px">Neptun<br></h1><span style="font-size: 40px">Depazit - 50 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <h1 style="padding: 60px">Neptune<br></h1><span style="font-size: 40px">Depazit - 15 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
                             <p>Smart Tv, Youtube</p>
                             <ul>
                                 <li>Tutum: 5 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
                             </ul>
                         </div>
                     </div>
@@ -181,21 +84,68 @@
             </div>
         </div>
 
-
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('saturn')">
+            <div class="card">
                 <div class="image">
-                    <img src="img/saturn.jpg"/>
+                    <img class="mySlides4" src="img/uranus.jpg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 3)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 3)">&#10095;</button>
                 </div>
                 <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="saturn" style="display: none">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
                         <div class="center">
-                            <h1 style="padding: 60px">Saturn<br></h1><span style="font-size: 40px">Depazit - 50 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <h1 style="padding: 60px">Uranus<br></h1><span style="font-size: 40px">Depazit - 15 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
                             <p>Smart Tv, Youtube, Ps4</p>
                             <ul>
+                                <li>Tutum: 6 Nəfər</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
+            <div class="card">
+                <div class="image">
+                    <img class="mySlides5" src="img/saturn.jpg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 4)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 4)">&#10095;</button>
+                </div>
+                <div class="about" style="text-align: right">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
+                        <div class="center">
+                            <h1 style="padding: 60px">Saturn<br></h1><span style="font-size: 40px">Depazit - 15 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <p>Smart Tv, Youtube, Ps4</p>
+                            <ul>
+                                <li>Tutum: 6 Nəfər</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
+            <div class="card">
+                <div class="image">
+                    <img class="mySlides6" src="img/mercury.jpg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 5)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 5)">&#10095;</button>
+                </div>
+                <div class="about" style="text-align: right">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
+                        <div class="center">
+                            <h1 style="padding: 60px;font-size: 120px">Mercury<br></h1><span style="font-size: 40px">Depazit - 20 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <p>Karaoke, Sinema, Netflix</p>
+                            <ul>
                                 <li>Tutum: 5 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
                             </ul>
                         </div>
                     </div>
@@ -204,19 +154,21 @@
         </div>
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('makemake')">
+            <div class="card">
                 <div class="image">
-                    <img src="img/makemake.jpg"/>
+                    <img class="mySlides7" src="img/venus.jpg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 6)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 6)">&#10095;</button>
                 </div>
                 <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="makemake" style="display: none">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
                         <div class="center">
-                            <h1 style="padding: 60px;font-size: 95px">Make Make<br></h1><span style="font-size: 40px">Depazit - 40 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Smart Tv, Youtube, Ps3</p>
+                            <h1 style="padding: 60px;font-size: 120px">Venus<br></h1><span style="font-size: 40px">Depazit - 20 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <p>Karaoke, Sinema, Netflix</p>
                             <ul>
-                                <li>Tutum: 2 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
+                                <li>Tutum: 5 Nəfər</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
                             </ul>
                         </div>
                     </div>
@@ -225,38 +177,143 @@
         </div>
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
-            <div class="card" onclick="myFunction('pluto')">
+            <div class="card">
                 <div class="image">
-                    <img src="img/pluto.jpg"/>
+                    <img class="mySlides8" src="img/moon.jpg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 7)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 7)">&#10095;</button>
                 </div>
                 <div class="about" style="text-align: right">
-                    <button class="about-text">Məlumat</button>
-                    <div class="details" id="pluto" style="display: none">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
                         <div class="center">
-                            <h1 style="padding: 60px">Pluto<br></h1><span style="font-size: 40px">Depazit - 40 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
-                            <p>Smart Tv, Youtube, Ps3</p>
+                            <h1 style="padding: 60px;font-size: 120px">Moon<br></h1><span style="font-size: 40px">Depazit - 30 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <p>Karaoke, Sinema, Netflix</p>
                             <ul>
-                                <li>Tutum: 2 Nəfər</li>
-                                <li>Vaxt Limiti: 3 Saat</li>
+                                <li>Tutum: 7 Nəfər</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
+            <div class="card">
+                <div class="image">
+                    <img class="mySlides9" src="img/yupiter.jpg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 8)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 8)">&#10095;</button>
+                </div>
+                <div class="about" style="text-align: right">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
+                        <div class="center">
+                            <h1 style="padding: 60px;font-size: 120px">Yupiter<br></h1><span style="font-size: 40px">Depazit - 30 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <p>Karaoke, Sinema, Netflix</p>
+                            <ul>
+                                <li>Tutum: 8 Nəfər</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
+            <div class="card">
+                <div class="image">
+                    <img class="mySlides10" src="img/mars.jpg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 9)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 9)">&#10095;</button>
+                </div>
+                <div class="about" style="text-align: right">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
+                        <div class="center">
+                            <h1 style="padding: 60px;font-size: 120px">Mars<br></h1><span style="font-size: 40px">Depazit - 30 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <p>Karaoke, Sinema, Netflix</p>
+                            <ul>
+                                <li>Tutum: 8 Nəfər</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-bottomAndTop">
+            <div class="card">
+                <div class="image">
+                    <img class="mySlides11" src="img/world.jpg">
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 11)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 11)">&#10095;</button>
+                </div>
+                <div class="about" style="text-align: right">
+                    <div class="about-text text-center m-0">Məlumatları Göstər</div>
+                    <div class="details" style="display: none">
+                        <div class="center">
+                            <h1 style="padding: 60px;font-size: 120px">Earth<br></h1><span style="font-size: 40px">Depazit - 60 ₼<br></span><span style="font-size: 30px">(Menu Daxil)</span><br>
+                            <p>Karaoke, Sinema, Netflix</p>
+                            <ul>
+                                <li>Tutum: 20 Nəfər</li>
+                                <li>Vaxt Limiti: 1 Saat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 </div>
 
+
+
 <script>
-    function myFunction($id) {
-        var x = document.getElementById($id);
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        }
-        else {
-            x.style.display = "none";
-        }
+    var slideIndex = [1,1];
+    var slideId = ["mySlides1", "mySlides2","mySlides3","mySlides4","mySlides5","mySlides6","mySlides7","mySlides8","mySlides9","mySlides10",,"mySlides11"];
+    showDivs(1, 0);
+    showDivs(1, 1);
+    showDivs(1, 2);
+    showDivs(1, 3);
+    showDivs(1, 4);
+    showDivs(1, 5);
+    showDivs(1, 6);
+    showDivs(1, 7);
+    showDivs(1, 8);
+    showDivs(1, 9);
+    showDivs(1, 11);
+
+    function plusDivs(n, no) {
+        showDivs(slideIndex[no] += n, no);
     }
+
+    function showDivs(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {slideIndex[no] = 1}
+        if (n < 3) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex[no]-1].style.display = "block";
+    }
+</script>
+
+<script>
+    var textList = document.querySelectorAll(".about-text");
+
+    textList.forEach(text=>{
+        text.addEventListener('click',function(){
+            let next=text.nextElementSibling;
+            next.classList.toggle("block");
+            next.classList.contains("block")?text.innerText="Məlumatları Gizlət":text.innerText="Məlumatları Göstər";
+        })
+    })
 </script>
 </body>
 </html>
